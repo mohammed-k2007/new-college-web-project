@@ -1,0 +1,19 @@
+{
+  "_note": "مثال لشكل البيانات فقط. أنواع العقد: start | end | process | output | decision | loop",
+  "nodes": [
+    { "id": "start", "type": "start", "label": "Start" },
+    { "id": "process-1", "type": "process", "label": "x = 5" },
+    { "id": "decision-1", "type": "decision", "label": "x > 3" },
+    { "id": "output-1", "type": "output", "label": "Big" },
+    { "id": "output-2", "type": "output", "label": "Small" },
+    { "id": "end", "type": "end", "label": "End" }
+  ],
+  "edges": [
+    { "from": "start", "to": "process-1", "label": null },
+    { "from": "process-1", "to": "decision-1", "label": null },
+    { "from": "decision-1", "to": "output-1", "label": "TRUE" },
+    { "from": "decision-1", "to": "output-2", "label": "FALSE" },
+    { "from": "output-1", "to": "end", "label": null },
+    { "from": "output-2", "to": "end", "label": null }
+  ]
+}

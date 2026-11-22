@@ -1,0 +1,11 @@
+{
+  "_note": "مثال لشكل البيانات فقط، مو نتيجة تنفيذ فعلية",
+  "step": 1,
+  "line": 1,
+  "nodeId": "process-1",
+  "variables": { "x": 5 },
+  "output": [],
+  "status": "running",
+  "explanation": "تم تعريف المتغير x وإعطاؤه القيمة 5",
+  "branch": null
+}

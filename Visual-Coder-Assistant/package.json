@@ -1,0 +1,14 @@
+{
+  "name": "visual-coder-assistant",
+  "version": "0.1.0",
+  "description": "Educational app that visualizes JavaScript execution step by step",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "db:init": "node database/init-db.js",
+    "db:seed": "node database/seed.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
